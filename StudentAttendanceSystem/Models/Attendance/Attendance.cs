@@ -27,7 +27,6 @@ namespace StudentAttendanceSystem.Models.Attendance
         [StringLength(250)]
         public string Remarks { get; set; }
 
-        // Navigation Properties
         public virtual Student.Student Student { get; set; }
         public virtual Course.Course Course { get; set; }
     }
