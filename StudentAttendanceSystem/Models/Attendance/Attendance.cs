@@ -28,6 +28,6 @@ namespace StudentAttendanceSystem.Models.Attendance
         public string Remarks { get; set; }
 
         public virtual Student.Student Student { get; set; }
-        public virtual Course.Course Course { get; set; }
+        public virtual Programme.Programme Programme { get; set; }
     }
 }
