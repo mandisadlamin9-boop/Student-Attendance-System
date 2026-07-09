@@ -132,6 +132,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Account\User.cs" />
+    <Compile Include="Models\Lecturer\Lecturer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\Enums\UserRole.cs" />
   </ItemGroup>
@@ -192,7 +193,6 @@
     <Folder Include="Helpers\" />
     <Folder Include="Models\Attendance\" />
     <Folder Include="Models\Course\" />
-    <Folder Include="Models\Lecturer\" />
     <Folder Include="Models\Student\" />
     <Folder Include="Services\" />
     <Folder Include="ViewModels\" />
