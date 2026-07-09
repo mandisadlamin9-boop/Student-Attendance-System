@@ -34,5 +34,11 @@ namespace StudentAttendanceSystem.Models.Student
 
         [Required]
         public int YearLevel { get; set; }
+
+      
+        public int CourseId { get; set; }
+
+       
+        public virtual Course.Course Course { get; set; }
     }
 }
