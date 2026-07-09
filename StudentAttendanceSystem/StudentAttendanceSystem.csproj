@@ -188,7 +188,11 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Helpers\" />
-    <Folder Include="Models\" />
+    <Folder Include="Models\Account\" />
+    <Folder Include="Models\Attendance\" />
+    <Folder Include="Models\Course\" />
+    <Folder Include="Models\Lecturer\" />
+    <Folder Include="Models\Student\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
