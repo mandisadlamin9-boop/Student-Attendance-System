@@ -21,7 +21,7 @@ namespace StudentAttendanceSystem.Models.Account
         public string PasswordHash { get;set; }
 
         [Required]
-        [StringLength(20)]
+      
         public UserRole Role { get; set; }
 
         public bool IsActive { get; set; }
