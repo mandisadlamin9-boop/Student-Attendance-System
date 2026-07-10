@@ -32,14 +32,13 @@ namespace StudentAttendanceSystem.Models.Student
         [StringLength(15)]
         public string PhoneNumber { get; set; }
 
-        public virtual ICollection<Enrollment.Enrollment> Enrollments { get; set; }
+        [Required]
+        public int YearLevel { get; set; }
 
-        public virtual ICollection<Attendance.Attendance> Attendances { get; set; }
+      
+        public int CourseId { get; set; }
 
-        public Student()
-        {
-            Enrollments = new HashSet<Enrollment.Enrollment>();
-            Attendances = new HashSet<Attendance.Attendance>();
-        }
+       
+        public virtual Course.Course Course { get; set; }
     }
 }
